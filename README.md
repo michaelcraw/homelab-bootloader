@@ -15,21 +15,6 @@ When the system boots, this bootloader:
 - Prints a custom “homelab fleet dashboard”
 - Halts the CPU
 
-Example output:
-
-============================================
-MICHAEL'S HOMELAB FLEET BOOTLOADER
-
-Fleet Status: 7 machines, 1 Pi camera
-Tailscale: Connected
-Monitoring: Grafana + Prometheus
-AI: Ollama (self-hosted)
-Cluster: Kubernetes k3s (3 nodes)
-
-Written in x86 assembly.
-512 byte bootloader.
-
-
 ---
 
 ## How it works
